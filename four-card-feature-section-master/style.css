@@ -1,9 +1,49 @@
-.body {
-    background: hsl:(0,0,98);
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
 
-.nav {
-    font-size: 11px;
-    text-align: canter;
-    font
+:root {
+    /* ------ Primary ------ */
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+    /* ------ Neutral ------ */
+    --verydarkblue: hsl(234, 12%, 34%);
+    --grayishblue: hsl(229, 6%, 66%);
+    --verylightgray: hsl(0, 0%, 98%);
+}
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    font-family: 'Poppins';
+}
+main {
+    text-align: center;
+}
+.title-1 {
+    font-size: 40px;
+    font-weight: 200;
+}
+.title-2 {
+    line-height: 0;
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--verydarkblue);
+}
+.legend {
+    color: var(--grayishblue);
+    padding: 1em;
+}
+.cards {
+    display: flex;
+    align-items: center;
+    text-align: start;
+}
+.cards h2 {
+    line-height: 0;
+    color: var(--verydarkblue);
+}
+.cards p {
+    color: var(--grayishblue);
+    font-size: 15px;
 }
