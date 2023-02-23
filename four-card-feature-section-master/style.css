@@ -41,6 +41,7 @@ main {
 }
 .cards {
     display: flex;
+    gap: 1em;
 
 }
 .cards:hover:not(:hover){
@@ -55,11 +56,11 @@ main {
     font-size: 15px;
 }
 .card-1 {
+    display: block;
     border-top-width: 5px;
     border-top-style: solid;
     height: 25vh;
-    width: 20vw;
-    margin: 1em;
+    width: 200px;
     padding: 1em;
     background-color: white;
     border-radius: 5px;
@@ -72,19 +73,19 @@ main {
         left: 16vw;
 }
 .iconSupervisor {
-    margin: 0 180px;
+    width: 25%;
 }
 .card-1:hover {
     cursor: pointer;
     transform: scale(1.02);
 }
 .card-2 {
+    display: block;
     border-top-width: 5px;
     border-top-style: solid;
-    margin: 1em;
     padding: 1em;
     height: 28vh;
-    width: 20vw;
+    width: 25
     background-color: white;
     border-radius: 5px;
     border-top-color: var(--red);
@@ -96,7 +97,7 @@ main {
         left: 15vw;   
 }
 .iconTeamBuilder {
-    margin: 0 180px;
+    width: 25%; 
 }
 .card-2:hover {
     cursor: pointer;
@@ -104,8 +105,7 @@ main {
 }
 .card-3 {
     border-top-width: 5px;
-    border-top-style: solid;
-    margin: 1em;
+    border-top-style: solid;    
     padding: 1em;
     height: 25vh;
     width: 20vw;
@@ -128,8 +128,7 @@ main {
 }
 .card-4 {
     border-top-width: 5px;
-    border-top-style: solid;
-    margin: 1em;
+    border-top-style: solid;   
     padding: 1em;
     height: 25vh;
     width: 20vw;
