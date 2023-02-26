@@ -39,6 +39,11 @@ main {
     color: var(--grayishblue);
     padding: 1em;
 }
+.cards p {
+    color: var(--grayishblue);
+    font-size: 15px;
+}
+
 .cards {
     display: flex;
     gap: 1em;
@@ -51,108 +56,10 @@ main {
     line-height: 0;
     color: var(--verydarkblue);
 }
-.cards p {
-    color: var(--grayishblue);
-    font-size: 15px;
-}
-.card-1 {
-    display: block;
-    border-top-width: 5px;
-    border-top-style: solid;
-    height: 25vh;
-    width: 200px;
-    padding: 1em;
-    background-color: white;
-    border-radius: 5px;
-    border-top-color: var(--cyan);
-    box-shadow: 5px 5px 8px darkgrey;
-    transition-property: transform;
-    transition-duration: 0.3s;
-    position: relative;
-        top: 15vh;   
-        left: 16vw;
-}
-.iconSupervisor {
-    width: 25%;
-}
-.card-1:hover {
-    cursor: pointer;
-    transform: scale(1.02);
-}
-.card-2 {
-    display: block;
-    border-top-width: 5px;
-    border-top-style: solid;
-    padding: 1em;
-    height: 28vh;
-    width: 25
-    background-color: white;
-    border-radius: 5px;
-    border-top-color: var(--red);
-    box-shadow: 5px 5px 8px darkgrey;
-    transition-property: transform;
-    transition-duration: 0.3s;
-    position: relative;
-        top: 0vh;   
-        left: 15vw;   
-}
-.iconTeamBuilder {
-    width: 25%; 
-}
-.card-2:hover {
-    cursor: pointer;
-    transform: scale(1.02);
-}
-.card-3 {
-    border-top-width: 5px;
-    border-top-style: solid;    
-    padding: 1em;
-    height: 25vh;
-    width: 20vw;
-    background-color: white;
-    border-radius: 5px;
-    border-top-color: var(--orange);
-    box-shadow: 5px 5px 8px darkgrey;
-    transition-property: transform;
-    transition-duration: 0.3s;   
-    position: relative;
-        top: 35vh;   
-        left: -9.6vw;
-}
-.iconKarma {
-    margin: 0 180px;
-}
-.card-3:hover {
-    cursor: pointer;
-    transform: scale(1.02);
-}
-.card-4 {
-    border-top-width: 5px;
-    border-top-style: solid;   
-    padding: 1em;
-    height: 25vh;
-    width: 20vw;
-    background-color: white;
-    border-radius: 5px;
-    border-top-color: var(--blue);
-    box-shadow: 5px 5px 8px darkgrey;
-    transition-property: transform;
-    transition-duration: 0.3s;
-    position: relative;
-        top: 15vh;   
-        left: -11vw;  
-}
-.iconCalculator {
-    margin: 0 180px;
-}
-.card-4:hover {
-    cursor: pointer;
-    transform: scale(1.02);
-}
 .attribution {
     text-align: center;
-    padding: 4px 4px;
-    margin: 5% 33%;
+    padding: 20px 10px;
+    margin: 5% 25%;
     width: 40vw;
     height: 5vh;
     background-color: white;
@@ -162,7 +69,8 @@ main {
     border-style: solid;
     border-color: lawngreen;
     transition-property: transform;
-    transition-duration: 0.3s;  
+    transition-duration: 0.3s; 
+  
 }
 .attribution:hover {
     cursor: pointer;
@@ -171,8 +79,104 @@ main {
 .attribution a {
     text-decoration: none;
 }
+
 @media screen and (max-width: 768px) {
     .cards {
         display: block;
+        align-items: center;
+        padding: 5vh 30vw;
     }
+    .card-1 {
+        display: block;
+        border-top-width: 5px;
+        border-top-style: solid;
+        height: 25vh;
+        width: 200px;
+        padding: 1em;
+        margin: 1em 0;
+        background-color: white;
+        border-radius: 5px;
+        border-top-color: var(--cyan);
+        box-shadow: 5px 5px 8px darkgrey;
+        transition-property: transform;
+        transition-duration: 0.3s;
+       
+    }
+    .iconSupervisor {
+        width: 25%;
+    }
+    .card-1:hover {
+        cursor: pointer;
+        transform: scale(1.02);
+    }
+    .card-2 {
+        display: block;
+        border-top-width: 5px;
+        border-top-style: solid;
+        padding: 1em;
+        height: 28vh;
+        width: 200px;
+        margin: 1em 0;
+        background-color: white;
+        border-radius: 5px;
+        border-top-color: var(--red);
+        box-shadow: 5px 5px 8px darkgrey;
+        transition-property: transform;
+        transition-duration: 0.3s;
+        
+    }
+    .iconTeamBuilder {
+        width: 25%; 
+    }
+    .card-2:hover {
+        cursor: pointer;
+        transform: scale(1.02);
+    }
+    .card-3 {
+        border-top-width: 5px;
+        border-top-style: solid;    
+        padding: 1em;
+        height: 25vh;
+        width: 200px;
+        margin: 1em 0;
+        background-color: white;
+        border-radius: 5px;
+        border-top-color: var(--orange);
+        box-shadow: 5px 5px 8px darkgrey;
+        transition-property: transform;
+        transition-duration: 0.3s;   
+        
+    }
+    .iconKarma {
+        width: 25%;
+    }
+    .card-3:hover {
+        cursor: pointer;
+        transform: scale(1.02);
+    }
+    .card-4 {
+        border-top-width: 5px;
+        border-top-style: solid;   
+        padding: 1em;
+        height: 25vh;
+        width: 200px;
+        margin: 1em 0;
+        background-color: white;
+        border-radius: 5px;
+        border-top-color: var(--blue);
+        box-shadow: 5px 5px 8px darkgrey;
+        transition-property: transform;
+        transition-duration: 0.3s;
+        
+    }
+    .iconCalculator {
+        width: 25%;
+    }
+    .card-4:hover {
+        cursor: pointer;
+        transform: scale(1.02);
+    }
+    
+    
+    
 }
