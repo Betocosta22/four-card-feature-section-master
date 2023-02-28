@@ -176,7 +176,7 @@ main {
         cursor: pointer;
         transform: scale(1.02);
     }
-    
-    
+}
+@media screen and (max-width: 1440px) {
     
 }
