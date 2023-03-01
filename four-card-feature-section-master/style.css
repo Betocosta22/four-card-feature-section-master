@@ -79,6 +79,34 @@ main {
 .attribution a {
     text-decoration: none;
 }
+.iconSupervisor {
+    width: 25%;
+}
+.card-1:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}
+.iconTeamBuilder {
+    width: 25%; 
+}
+.card-2:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}
+.iconKarma {
+    width: 25%;
+}
+.card-3:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}
+.iconCalculator {
+    width: 25%;
+}
+.card-4:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+}
 
 @media screen and (max-width: 768px) {
     .cards {
@@ -102,13 +130,6 @@ main {
         transition-duration: 0.3s;
        
     }
-    .iconSupervisor {
-        width: 25%;
-    }
-    .card-1:hover {
-        cursor: pointer;
-        transform: scale(1.02);
-    }
     .card-2 {
         display: block;
         border-top-width: 5px;
@@ -125,13 +146,6 @@ main {
         transition-duration: 0.3s;
         
     }
-    .iconTeamBuilder {
-        width: 25%; 
-    }
-    .card-2:hover {
-        cursor: pointer;
-        transform: scale(1.02);
-    }
     .card-3 {
         border-top-width: 5px;
         border-top-style: solid;    
@@ -146,13 +160,6 @@ main {
         transition-property: transform;
         transition-duration: 0.3s;   
         
-    }
-    .iconKarma {
-        width: 25%;
-    }
-    .card-3:hover {
-        cursor: pointer;
-        transform: scale(1.02);
     }
     .card-4 {
         border-top-width: 5px;
@@ -169,14 +176,7 @@ main {
         transition-duration: 0.3s;
         
     }
-    .iconCalculator {
-        width: 25%;
     }
-    .card-4:hover {
-        cursor: pointer;
-        transform: scale(1.02);
-    }
-}
 @media screen and (max-width: 1440px) {
     
 }
