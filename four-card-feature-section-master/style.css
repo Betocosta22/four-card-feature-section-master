@@ -178,5 +178,9 @@ main {
     }
     }
 @media screen and (max-width: 1440px) {
-    
+    .cards {
+        display: flex;
+        gap: .5em;
+        padding: 5vh 30vw;
+    }
 }
